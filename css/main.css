@@ -1,0 +1,39 @@
+/**
+    color-background: #fff
+    color-foreground: #333
+    color-theme: #37a
+*/
+html, body {
+    background: #fff;
+    color: #333;
+    font: 16px/1.4 sans-serif;
+}
+
+a {
+    color: #37a;
+}
+
+.disclaimer {
+    background: #fed;
+    padding: 30px/2 0;
+    text-align: center;
+    color: #410;
+}
+
+header {
+    border-bottom: 1px solid rgba(#000, .2);
+    border-top: 1px solid rgba(#000, .2);
+    height: 40px;
+    position: relative;
+}
+
+header h1 {
+    font: bold;
+    color: #37a;
+}
+
+#contents h1 {
+    color: #37a;
+    font: bold 16px+5px sans-serif;
+    text-transform: uppercase;
+}
